@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "scss": "node-sass --include-path public/assets style.scss style.css"
+    "build": "node index.js"
   },
   "keywords": [],
   "author": "",
