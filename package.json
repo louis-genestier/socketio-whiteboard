@@ -1,0 +1,21 @@
+{
+  "name": "whiteboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "scss": "node-sass --include-path public/assets style.scss style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^4.13.1",
+    "socket.io": "^2.3.0"
+  }
+}
