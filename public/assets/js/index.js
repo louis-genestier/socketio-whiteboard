@@ -25,6 +25,7 @@ class Whiteboard {
 
   draw(e) {
     if(!this.isDrawing) return;
+    this.ctx.strokeStyle = this.getColor();
     const position = {x: e.offsetX, y: e.offsetY};
     this.positions.push(position);
     this.drawOnCanvas(this.positions);
